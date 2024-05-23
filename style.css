@@ -1,0 +1,11 @@
+.hidden-text {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 4.6s, transform 2.6s;
+  }
+  
+  .hidden-text.visible {
+    opacity: 1;
+    transform: translateY(660);
+  }
+  
